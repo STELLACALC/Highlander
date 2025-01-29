@@ -1,4 +1,3 @@
-# Highlander Elimination
 A game of chance with only one winner crowned every Friday
 <html lang="en">
 <head>
