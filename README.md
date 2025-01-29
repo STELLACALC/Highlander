@@ -19,15 +19,15 @@ A game of chance with only one winner crowned every Friday
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             display: inline-block;
         }
-        .dice-button {
-            background: none;
+        .roll-button {
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            padding: 15px 30px;
             border: none;
+            border-radius: 5px;
             cursor: pointer;
             margin-top: 20px;
-        }
-        .dice-button img {
-            width: 100px;
-            height: 100px;
         }
         .result {
             font-size: 24px;
@@ -71,9 +71,7 @@ A game of chance with only one winner crowned every Friday
         <h1>Highlander Elimination</h1>
         <input type="text" id="username" placeholder="Enter username">
         <button onclick="registerUser()">Sign In</button>
-        <button class="dice-button" onclick="rollDice()">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/20_sided_dice.svg/800px-20_sided_dice.svg.png" alt="20-sided dice">
-        </button>
+        <button class="roll-button" onclick="rollDice()">Roll the Dice</button>
         <div id="result" class="result"></div>
     </div>
     
